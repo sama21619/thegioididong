@@ -1,0 +1,191 @@
+.footer {
+    padding: 70px 0;
+    box-shadow: $box-shadow;
+    font-size: 1.1rem;
+   
+
+    &__logo {
+        height: 38px;
+    }
+
+    &__about {
+        p {
+            margin-bottom: 2rem;
+            color:#333;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        color: #333333;;
+    }
+
+    &__content {
+        p {
+            margin-bottom: 1.25rem;
+            color:#333333;
+        }
+    }
+}
+
+[class^="icon-"], [class*="icon-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/homev2/desk/icon_common@2x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 300px 200px;
+}
+
+[class^="iconlogo-"], [class*="iconlogo-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/DMX/Global/Desktop/Logo-webmoi.png?v=3);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    width: 80px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 250px 200px;
+}
+
+.f-listmenu li {
+    margin-bottom: 10px;
+}
+
+.f-listmenu li a {
+    color: #333;
+    line-height: 21px;
+}
+.f-listmenu li a:hover
+{
+    text-decoration: none;
+    transition: .2s;
+    color: #288ad6;
+}
+
+
+.icon-congthuong {
+    background-position: -200px -30px;
+    height: 24px;
+    width: 79px;
+}
+
+.icon-facebook {
+    background-position: -225px 0;
+    height: 18px;
+    width: 18px;
+}
+
+.icon-youtube {
+    background-position: -200px 0;
+    height: 18px;
+    width: 18px;
+}
+
+.iconlogo-topzone {
+    background-position: 0 -58px;
+}
+
+.f-social a i {
+    margin-right: 5px;
+}
+
+.icon-khieunai {
+    background-position: -250px 0;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.icon-protected {
+    background-position: -80px -60px;
+    height: 24px;
+    width: 122px;
+}
+
+.f-certify a {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.f-certify {
+    margin-bottom: 20px;
+}
+
+
+.iconlogo-dienmayxanh {
+    background-position: -85px 0;
+}
+.iconlogo-bachhoaxanh {
+    background-position: -170px 0;
+}
+
+.iconlogo-ankhang {
+    background-position: -85px -90px;
+}
+.iconlogo-kids {
+    background-position: -170px -29px;
+}
+.iconlogo-sport {
+    background-position: 0 -29px;
+}
+.iconlogo-tantam {
+    background-position: -170px -90px;
+}
+.iconlogo-4kfarm {
+    background-position: 0 -90px;
+}
+.iconlogo-vieclam {
+    background-position: 0 -120px;
+}
+
+
+
+
+ul, ol {
+    list-style: none;
+}
+
+.footer__logo-list li {
+    float: left;
+    width: 80px;
+    margin: 0 8px 8px 0;
+}
+
+.f-social a {
+    color: #2f80ed;
+    margin-right: 10px;
+}
+
+.f-social {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    background-color: #f1f1f1;
+    padding: 15px 0;
+}
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    min-width: 980px;
+    position: relative;
+}
+
+.copyright p {
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+
+.copyright a {
+    color: #288ad6;
+}
+
+

@@ -1,0 +1,113 @@
+.section {
+    margin-bottom: 80px;
+
+    & > * ~ * {
+        margin-top: 40px;
+    }
+
+    &__title {
+       
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 36px;
+        color: #333;
+        text-transform: uppercase;
+       
+        
+    }
+}
+.deal-ngon{
+    background-color: #FFB744;
+    padding: 0 20px;
+    border-radius: 12px;
+   
+}
+.popular{
+    background-color: #e6e6e6;
+    border-radius: 12px;
+    padding: 0 20px;
+
+}
+.deal-shock{
+    background-color: #ff685f;
+    padding: 0 20px;
+    border-radius: 12px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 26px;
+  
+    text-transform: uppercase;
+    color: #ffe818;
+    margin-bottom: 5px;
+  
+
+}
+.icon__thor, .time{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.time{
+    margin-top: 40px;
+    margin-left: 20px;
+    line-height: 40px;
+    
+   
+  
+}
+
+.span-time{
+    color: #fff;
+    margin-left: 5px;
+}
+.time__detail{
+   display: flex;
+   justify-content: center;
+}
+.hot__deal-img, .brand-img{
+    border-radius: 12px;
+}
+.tech__24h img{
+    width: 280px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+
+.tech__24h {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tech__adv{
+    
+    margin-left: 20px;
+    flex:25%
+    
+}
+.tech__adv img{
+    width: 100%;
+}
+.tech__container{
+    display: flex;
+   
+}
+.tech_content{
+    align-items: center;
+    display: flex;
+    
+    flex:75%;
+    background-color:rgb(244, 239, 239) ;
+}
+.span__tech{
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+    margin: 10px;
+}
